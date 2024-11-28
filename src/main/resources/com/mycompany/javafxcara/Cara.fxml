@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.shape.Circle?>
+<?import javafx.scene.shape.QuadCurve?>
+
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="300.0" prefWidth="441.0" xmlns="http://javafx.com/javafx/23.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.mycompany.javafxcara.CaraController">
+   <children>
+      <Circle fx:id="circulo" fill="#ffe487" layoutX="221.0" layoutY="97.0" radius="74.0" stroke="BLACK" strokeType="INSIDE" />
+      <Button layoutX="159.0" layoutY="199.0" mnemonicParsing="false" onAction="#CambiarCara" prefHeight="46.0" prefWidth="119.0" text="CAMBIAR" />
+      <Circle fill="DODGERBLUE" layoutX="186.0" layoutY="76.0" radius="12.0" stroke="BLACK" strokeType="INSIDE" />
+      <Circle fill="DODGERBLUE" layoutX="246.0" layoutY="76.0" radius="12.0" stroke="BLACK" strokeType="INSIDE" />
+      <QuadCurve fx:id="boca" controlX="-2.0" controlY="-41.0" endX="30.0" endY="-6.0" fill="#ffed87" layoutX="221.0" layoutY="139.0" startX="-31.0" startY="-6.0" stroke="BLACK" strokeType="INSIDE" />
+   </children>
+</AnchorPane>
